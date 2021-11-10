@@ -3,12 +3,12 @@ function showVerticalMessage(str) {
         console.log('Error!')
     } else {
         if (str[0] === 'm') {
-            result = (str[0].toUpperCase() + str.slice(1, 10))
+            str = (str[0].toUpperCase() + str.slice(1, 10))
         } else {
-            result = str.slice(0, 10)
+            str = str.slice(0, 10)
         }
-        for (result of result) {
-            console.log(result)
+        for (str of str) {
+            console.log(str)
         }
     }
 
