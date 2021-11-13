@@ -13,4 +13,4 @@ function showVerticalMessage(str) {
     }
 }
 
-showVerticalMessage()
+showVerticalMessage('marathon')
